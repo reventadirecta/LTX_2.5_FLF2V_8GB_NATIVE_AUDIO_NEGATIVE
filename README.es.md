@@ -22,12 +22,12 @@ El workflow utiliza la ruta de audio nativo de LTX 2.5 e incluye controles visib
 
 ## Modelos
 
-El workflow referencia estos archivos de modelos LTX 2.5 para 8 GB:
+El workflow referencia estos archivos de modelos LTX 2.5 para 8 GB. Los archivos W4A8 están disponibles en el repositorio comunitario de modelos cuantizados; los VAE proceden del repositorio oficial de LTX-2.5.
 
-- `ltx-2.5-22b-distilled-transformer-w4a8_convrot.safetensors`
-- `gemma4-12b-with-proj-ltx-2.5-w4a8_convrot.safetensors` (Gemma 4 12B con proyección LTX 2.5)
-- `ltx-2.5-video-vae-bf16.safetensors`
-- `ltx-2.5-audio-vae-bf16.safetensors`
+- [`ltx-2.5-22b-distilled-transformer-w4a8_convrot.safetensors` — descargar transformer W4A8](https://huggingface.co/Winnougan/ltx-2.5-w4a8-convrot-int4-convrot-Winnougan-Blessing/resolve/main/diffusion_models/ltx-2.5-22b-distilled-transformer-w4a8_convrot.safetensors)
+- [`gemma4-12b-with-proj-ltx-2.5-w4a8_convrot.safetensors` — descargar encoder Gemma 4 12B W4A8](https://huggingface.co/Winnougan/ltx-2.5-w4a8-convrot-int4-convrot-Winnougan-Blessing/resolve/main/text_encoders/gemma4-12b-with-proj-ltx-2.5-w4a8_convrot.safetensors)
+- [`ltx-2.5-video-vae-bf16.safetensors` — descargar VAE de vídeo oficial](https://huggingface.co/Lightricks/LTX-2.5/resolve/main/vae/ltx-2.5-video-vae-bf16.safetensors)
+- [`ltx-2.5-audio-vae-bf16.safetensors` — descargar VAE de audio oficial](https://huggingface.co/Lightricks/LTX-2.5/resolve/main/vae/ltx-2.5-audio-vae-bf16.safetensors)
 
 Colócalos en las carpetas correspondientes de modelos de ComfyUI, como `models/diffusion_models`, `models/text_encoders` y `models/vae`.
 
